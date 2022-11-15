@@ -1,0 +1,32 @@
+.films{
+    padding: 60px 0 77px;
+}
+
+.heading{
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--orange);
+    font-family: var(--CR);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--orange);
+    text-transform: capitalize;
+}
+
+.films__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.card{
+    position: relative;
+    z-index: 10;
+    padding: 54px 14px 19px;
+    width: 255px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
